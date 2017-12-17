@@ -7,6 +7,9 @@
   "cacheDirectories": [
     "node_modules"
   ],
+  "scripts": {
+    "registry": "docker-compose -f src/main/docker/jhipster-registry.yml up"
+  },
   "devDependencies": {
     "generator-jhipster": "4.13.0"
   },
