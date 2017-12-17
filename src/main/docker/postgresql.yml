@@ -1,0 +1,11 @@
+version: '2'
+services:
+    roomer-postgresql:
+        image: postgres:9.6.5
+        # volumes:
+        #     - ~/volumes/jhipster/roomer/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=roomer
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
